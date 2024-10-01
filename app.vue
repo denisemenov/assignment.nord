@@ -8,7 +8,7 @@
   </nord-layout>
 </template>
 
-<style>
+<style scoped>
 body {
   min-height: 100vh;
   padding: 0;
