@@ -74,6 +74,7 @@ const submitForm = () => {
           label="E-mail"
           expand
           type="email"
+          placeholder="hello@nord.mail"
           size="l"
           :value="user.email"
           @input="setUser($event, 'email')"
@@ -85,6 +86,7 @@ const submitForm = () => {
           name="password"
           id="password"
           label="Password"
+          placeholder="********"
           expand
           :type="showPass ? 'text' : 'password'"
           size="l"
